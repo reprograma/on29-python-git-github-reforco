@@ -4,77 +4,54 @@
 
 # Tema da Aula
 
-Turma Online X | X-end | Semana X | 202X | Professora X
+Bem-vindo ao repositório do tutorial sobre as ferramentas essenciais para desenvolvedores: Git & GitHub, VS Code, Terminal e Markdown. Este repositório foi criado com o objetivo de oferecer um guia prático e direto para quem está começando na área de desenvolvimento de software e deseja aprender as ferramentas básicas necessárias para trabalhar com código e colaboração.
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
+# Material de Apoio
 
-### Resumo
-O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+Os slides da aula estão disponíveis [aqui](./material/revisao-on29-git-github.pdf).
 
-## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
-   
-### Tema3
-1. [Tópico 4](#topico4)
+## Conteúdos Abordados
 
-### Tema1 
+### Git & GitHub
 
-#### Topico1
+#### Uso e Necessidade
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+Git é um sistema de controle de versão distribuído que permite que você rastreie as mudanças no código fonte durante o desenvolvimento de software. GitHub é uma plataforma de hospedagem de código-fonte que utiliza Git. Eles são essenciais para a colaboração e gestão de projetos de software, permitindo que múltiplos desenvolvedores trabalhem juntos sem conflitos.
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
+#### Comandos Básicos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
+- `git fetch`: Baixa os commits, arquivos e refs de um repositório remoto para seu repositório local.
+- `git status`: Mostra o estado do working directory e do staging area, permitindo ver quais mudanças foram staged.
+- `git add`: Adiciona uma mudança no diretório de trabalho ao staging area.
+- `git commit`: Captura o estado atual de mudanças preparadas para que possam ser vinculadas ao seu repositório local.
+- `git push`: Atualiza o repositório remoto com as mudanças feitas localmente, depois de um commit.
 
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+### Fluxo de Trabalho
 
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+#### Fork e Clone
 
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
+1. **Fork**: Faça um 'fork' do repositório da Reprograma para sua conta no GitHub. Isso cria uma cópia do repositório original em sua conta.
+2. **Clone**: Clone o repositório forkado para seu computador local para começar a trabalhar nas mudanças.
 
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
+#### Alterações Locais e Pull Request
 
-***
-### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+1. Faça suas alterações localmente no VS Code ou em seu editor de preferência.
+2. Crie um 'pull request' para o repositório original da Reprograma quando tiver terminado as atividades.
 
-### Material da aula 
+### VS Code & Terminal
 
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+Visual Studio Code (VS Code) é um editor de código-fonte leve mas poderoso que suporta uma variedade de linguagens de programação e ferramentas. O terminal integrado no VS Code permite que você execute comandos Git diretamente no editor, facilitando o fluxo de trabalho.
 
+### Markdown
 
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
+Markdown é uma linguagem de marcação leve que é usada para formatar documentos. Ela é amplamente utilizada para criar arquivos README em repositórios de GitHub, posts em blogs, e mais.
 
+#### Formatar Texto
+
+- **Negrito**: Para negrito, utilize dois asteriscos ou underscores (`**texto**` ou `__texto__`).
+- *Itálico*: Para itálico, utilize um asterisco ou underscore (`*texto*` ou `_texto_`).
+- Emojis: Utilize emojis copiando caracteres de emoji ou utilizando códigos de emoji em Markdown (ex.: `:smile:` para 😄).
+
+---
+
+Esperamos que este README ajude a navegar e utilizar este repositório para o seu aprendizado! Explore os conteúdos e não hesite em contribuir com perguntas ou melhorias. Happy coding!
