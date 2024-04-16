@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Bem-vindo ao repositório do tutorial sobre as ferramentas essenciais para desenvolvedores: Git & GitHub, VS Code, Terminal e Markdown. Este repositório foi criado com o objetivo de oferecer um guia prático e direto para quem está começando na área de desenvolvimento de software e deseja aprender as ferramentas básicas necessárias para trabalhar com código e colaboração.
+Revisão de Git & GitHub - ON#29 - Python e Analise de Dados
 
 # Material de Apoio
 
