@@ -53,5 +53,3 @@ Markdown é uma linguagem de marcação leve que é usada para formatar document
 - Emojis: Utilize emojis copiando caracteres de emoji ou utilizando códigos de emoji em Markdown (ex.: `:smile:` para 😄).
 
 ---
-
-Esperamos que este README ajude a navegar e utilizar este repositório para o seu aprendizado! Explore os conteúdos e não hesite em contribuir com perguntas ou melhorias. Happy coding!
